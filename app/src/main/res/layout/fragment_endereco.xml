@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <!-- <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:background="#FFFFFF"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:id="@+id/layoutFormulario"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Nome" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/edtLogin" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/edtSenha" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="CPF" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="E-mail" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>-->
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+         <androidx.cardview.widget.CardView
+             android:id="@+id/cardFormulario"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="16dp"
+             android:background="#FFFFFF"
+             app:cardCornerRadius="4dp"
+             app:cardElevation="8dp">
+
+            <LinearLayout
+                android:id="@+id/layoutFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="8dp"
+                   android:orientation="horizontal">
+
+                  <TextView
+                      android:id="@+id/textView3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="Digite aqui seu endereço"
+                      android:textSize="14sp"
+                      android:textStyle="bold" />
+
+                  <CheckBox
+                      android:id="@+id/cbUsaLocalizacao"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="Usar minha localização ?" />
+               </LinearLayout>
+
+               <com.google.android.material.textfield.TextInputLayout
+                   android:id="@+id/textInputEstado"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+                  <com.google.android.material.textfield.TextInputEditText
+                      android:id="@+id/edtCadEstado"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="textPersonName"
+                      android:hint="Digite seu Estado" />
+               </com.google.android.material.textfield.TextInputLayout>
+
+                <Spinner
+                    android:id="@+id/spinnerEstado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                   android:id="@+id/textInputBairro"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="4dp">
+
+                  <com.google.android.material.textfield.TextInputEditText
+                      android:id="@+id/edtCadBairro"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Digite seu Bairro"
+                      android:inputType="textPersonName" />
+               </com.google.android.material.textfield.TextInputLayout>
+
+
+               <com.google.android.material.textfield.TextInputLayout
+                   android:id="@+id/textInputCidade"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="4dp">
+
+                  <com.google.android.material.textfield.TextInputEditText
+                      android:id="@+id/edtCadCidade"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Digite sua Cidade"
+                      android:inputType="textPersonName" />
+               </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+         </androidx.cardview.widget.CardView>
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_gravity="bottom">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="16dp"
+                android:baselineAlignBottom="false"
+                android:clickable="true"
+                app:srcCompat="@drawable/outline_done_outline_white_18dp" />
+         </RelativeLayout>
+
+      </LinearLayout>
+   </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

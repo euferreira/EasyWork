@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EasyWork</string>
+    <string name="edtLogin">Login</string>
+    <string name="edtSenha">Senha</string>
+    <string name="edtLogar">LOGAR</string>
+    <string name="cbLembrar">Lembrar-me</string>
+    <string name="txtEsqueciSenha">Esqueci minha senha</string>
+    <string name="txtCadastro">Ainda não é cadastrado ? Cadastre-se agora !</string>
+    <string name="todo">TODO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_dados_pessoais">Dados Pesoais</string>
+    <string name="tab_endereco">Endereço</string>
+    <string name="menu_menu">Menu</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_trabalhos">Trabalhos</string>
+    <string name="menu_perfil">Perfil</string>
+</resources>

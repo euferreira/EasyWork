@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "810021721410",
+    "firebase_url": "https://easywork-d98a0.firebaseio.com",
+    "project_id": "easywork-d98a0",
+    "storage_bucket": "easywork-d98a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810021721410:android:c30169bbb5da05864324db",
+        "android_client_info": {
+          "package_name": "br.com.tcc.easywork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810021721410-n7d7op8i1naiem8vs276ifdu15fj61m5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.tcc.easywork",
+            "certificate_hash": "84b4784ad3c90e204670c130377346d928104c9b"
+          }
+        },
+        {
+          "client_id": "810021721410-n3al3vnkrpe752737g3d3svsvn83uit8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMsNLPKBak2sgNE9pdP0u2pWPGPVmONsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810021721410-n3al3vnkrpe752737g3d3svsvn83uit8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
